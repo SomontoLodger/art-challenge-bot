@@ -1,0 +1,34 @@
+[
+  {
+    "id": 1,
+    "theme": "Портрет",
+    "difficulty": "beginner",
+    "task": "Нарисуй силуэт головы с простым освещением. Сфокусируйся на пропорциях.",
+    "tips": "Используй овал как основу. Глаза — посередине высоты головы.",
+    "references": [
+      "https://unsplash.com/photos/a-man-with-a-beard-posing-for-a-photo-6sAl6aQ4OWI",
+      "https://unsplash.com/photos/a-woman-with-long-hair-standing-next-to-a-wall-8GfJ5XmXZ6E"
+    ]
+  },
+  {
+    "id": 2,
+    "theme": "Свет и тень",
+    "difficulty": "beginner",
+    "task": "Нарисуй яблоко с одним источником света слева. Передай объём через градиент.",
+    "tips": "Самое тёмное место — не там, где тень, а там, где объект изгибается.",
+    "references": [
+      "https://unsplash.com/photos/red-apple-on-white-surface-dQZzUq6dKdY",
+      "https://unsplash.com/photos/green-apple-on-white-surface-4fYv6J5XmXZ"
+    ]
+  },
+  {
+    "id": 3,
+    "theme": "Перспектива",
+    "difficulty": "intermediate",
+    "task": "Нарисуй улицу с 1-точечной перспективой. Добавь здания и дорогу.",
+    "tips": "Все параллельные линии сходятся в одной точке на горизонте.",
+    "references": [
+      "https://unsplash.com/photos/empty-street-with-buildings-on-both-sides-9fYv6J5XmXZ"
+    ]
+  }
+]
