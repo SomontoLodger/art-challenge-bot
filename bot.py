@@ -42,4 +42,5 @@ async def save_art(message: types.Message):
     await message.answer("✅ Работа сохранена! Через 7 дней я покажу, как ты прогрессируешь.")
 
 if __name__ == '__main__':
-    executor.start_polling(dp, skip_updates=True)
+    import asyncio
+    asyncio.run(dp.start_polling()) 
