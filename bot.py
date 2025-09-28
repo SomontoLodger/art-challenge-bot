@@ -1,7 +1,7 @@
 import os
 import json
 import random
-from aiogram import Bot, Dispatcher, executor, types
+from aiogram import Bot, Dispatcher, types
 from aiogram.types import ParseMode
 
 API_TOKEN = os.getenv("TELEGRAM_BOT_TOKEN")
@@ -43,4 +43,4 @@ async def save_art(message: types.Message):
 
 if __name__ == '__main__':
     import asyncio
-    asyncio.run(dp.start_polling()) 
+    asyncio.run(dp.start_polling())
