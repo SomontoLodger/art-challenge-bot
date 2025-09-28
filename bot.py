@@ -10,7 +10,7 @@ with open("challenges.json", "r", encoding="utf-8") as f:
     challenges = json.load(f)
 
 bot = Bot(token=API_TOKEN)
-dp = Dispatcher(bot)
+dp = Dispatcher()
 
 @dp.message_handler(commands=['start'])
 async def send_welcome(message: types.Message):
