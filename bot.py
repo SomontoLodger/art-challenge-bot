@@ -2,7 +2,7 @@ import os
 import json
 import random
 from aiogram import Bot, Dispatcher, types
-from aiogram.types import ParseMode
+from aiogram.enums import ParseMode
 
 API_TOKEN = os.getenv("TELEGRAM_BOT_TOKEN")
 
